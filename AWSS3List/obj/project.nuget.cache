@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "gQHJ1swtabEoBObX4E+VGVVnRgvWANzd/iOyd9tAHaDEiGve/OSRyUCJts47Pkijaknoud5G7Z+DPolx5S6mRA==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\AWSS3List\\AWSS3List.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Conrad\\.nuget\\packages\\awssdk.core\\3.7.13\\awssdk.core.3.7.13.nupkg.sha512",
+    "C:\\Users\\Conrad\\.nuget\\packages\\awssdk.s3\\3.7.9.49\\awssdk.s3.3.7.9.49.nupkg.sha512"
+  ],
+  "logs": []
+}
