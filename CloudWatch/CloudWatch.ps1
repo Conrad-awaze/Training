@@ -21,3 +21,11 @@ $LogEvent.Timestamp = Get-Date
 
 git config --global user.email "conrad.gauntlett@awaze.com"
   git config --global user.name "Conrad Gauntlett"
+
+
+  (Get-Command -Name Get-CWLLogStream).Parameters
+
+  Get-CWLLogStream -LogGroupName $LogGroup -LogStreamNamePrefix Test
+
+ $Events = Get-CWLLogEvent -LogGroupName $LogGroup -LogStreamName $LogStream 
+ $Events.Events
