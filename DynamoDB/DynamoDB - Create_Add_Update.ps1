@@ -1,5 +1,5 @@
 # Import-Module AWSPowershell
-Set-AWSCredentials -AccessKey <> -SecretKey <> -StoreAs DynamoDB
+# Set-AWSCredentials -AccessKey <> -SecretKey <> -StoreAs DynamoDB
 Initialize-AWSDefaults -ProfileName DynamoDB -Region eu-west-2
 
 $exampleSchema = New-DDBTableSchema | Add-DDBKeySchema -KeyName "Name" -KeyDataType "S"
